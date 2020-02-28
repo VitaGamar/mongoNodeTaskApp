@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node ./src/index.js",
     "start:dev": "nodemon -L ./src/index.js"
   },
@@ -21,6 +21,7 @@
     "validator": "^10.9.0"
   },
   "devDependencies": {
+    "jest": "^23.6.0",
     "nodemon": "^2.0.2"
   }
 }
